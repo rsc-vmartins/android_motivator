@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="saPositiveMsgs">
+        <item>@string/strP1</item>
+        <item>@string/strP2</item>
+        <item>@string/strP3</item>
+        <item>@string/strP4</item>
+        <item>@string/strP5</item>
+    </string-array>
+
+    <string-array name="saNegativeMsgs">
+        <item>@string/strN1</item>
+        <item>@string/strN2</item>
+        <item>@string/strN3</item>
+        <item>@string/strN4</item>
+        <item>@string/strN5</item>
+    </string-array>
+
+</resources>

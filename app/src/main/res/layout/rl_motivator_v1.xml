@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- explain what's the purpose of the SeekBar that will appear next -->
+    <!-- textAlignment="center" produces the same result as gravity="center"-->
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/idTvAboutSb"
+        android:text="@string/strTVAboutSb"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- for the user to express the probability of a positive message -->
+    <SeekBar
+        android:max="100"
+        android:progress="50"
+        android:id="@+id/idSbProbPositiveMsgs"
+        android:layout_below="@id/idTvAboutSb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- click to obtain a single message -->
+    <Button
+        android:id="@+id/idBtnGetMsg"
+        android:layout_below="@id/idSbProbPositiveMsgs"
+        android:text="@string/strBtnGetMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- to contain ALL the messages -->
+    <ScrollView
+        android:layout_below="@id/idBtnGetMsg"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- this should enable vertical scroll in the TextView -->
+        <TextView
+            android:id="@+id/idTvMsgs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+
+</RelativeLayout>

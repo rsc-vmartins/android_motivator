@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Motivator</string>
+    <string name="strTVAboutSb">Slide right for positive messages</string>
+    <string name="strBtnGetMsg">Get message</string>
+
+    <string name="strP1">Well done, you did great</string>
+    <string name="strP2">Congratulations, you\'ve done it!</string>
+    <string name="strP3">Everything will be fine</string>
+    <string name="strP4">You shine!</string>
+    <string name="strP5">!!You can do it, surely!!</string>
+
+    <string name="strN1">Fail!</string>
+    <string name="strN2">You should have tried harder</string>
+    <string name="strN3">That was not good</string>
+    <string name="strN4">You did poorly</string>
+    <string name="strN5">Not so good</string>
+    <string name="strQCFail">Critical object found null</string>
+</resources>
